@@ -6,7 +6,8 @@ body {
 }
 
 header {
-    background-color: #3498db;
+    background-image: url('header_bg.jpg'); /* Image de fond pour l'en-tête */
+    background-size: cover;
     color: #fff;
     text-align: center;
     padding: 20px;
@@ -54,7 +55,9 @@ a {
 }
 
 section {
-    background-color: #fff;
+    background-image: url('section_bg.jpg'); /* Image de fond pour les sections */
+    background-size: cover;
+    color: #fff;
     margin: 20px;
     padding: 20px;
     border-radius: 5px;
