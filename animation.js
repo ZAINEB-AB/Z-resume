@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-image: url('header_bg.jpg'); /* Image de fond pour l'en-tête */
+    background-image: url('pngtree-dark-abstract-background-with-dark-overlap-layers-image_304990.jpg'); /* Image de fond pour l'en-tête */
     background-size: cover;
     color: #fff;
     text-align: center;
@@ -55,7 +55,7 @@ a {
 }
 
 section {
-    background-image: url('section_bg.jpg'); /* Image de fond pour les sections */
+    background-image: url('pngtree-dark-abstract-background-with-dark-overlap-layers-image_304990.jpg'); /* Image de fond pour les sections */
     background-size: cover;
     color: #fff;
     margin: 20px;
