@@ -11,3 +11,4 @@ sections.forEach((section) => {
         section.classList.toggle("active");
     });
 });
+
