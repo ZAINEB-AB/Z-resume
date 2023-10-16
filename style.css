@@ -2,14 +2,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('pngtree-dark-abstract-background-with-dark-overlap-layers-image_304990.jpg'); /* Image de fond globale */
+    background-image: url('background.jpg'); /* Image de fond globale */
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
 
 #page-container {
-    background-color: rgba(255, 255, 255, 0.9);
+    background-color: rgba(255, 255, 255, 0.8); /* Arrière-plan légèrement transparent */
     border-radius: 10px;
     padding: 20px;
     margin: 20px;
@@ -69,6 +69,14 @@ section {
     border-radius: 5px;
     padding: 20px;
     margin: 20px 0;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    opacity: 0.8; /* Arrière-plan légèrement transparent */
+}
+
+section:hover {
+    transform: scale(1.03);
+    opacity: 1; /* Retour à l'opacité normale lors du survol */
 }
 
 button {
