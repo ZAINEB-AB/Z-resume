@@ -44,7 +44,7 @@ body {
 h1 {
     font-size: 36px;
     margin: 0;
-    color: #008000; /* Nouvelle couleur pour le titre principal */
+    color: #333; /* Nouvelle couleur pour le titre principal */
 }
 
 h2 {
