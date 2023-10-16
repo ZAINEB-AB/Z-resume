@@ -6,25 +6,31 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    color: #333; /* Couleur du texte principale */
 }
 
 #page-container {
-    background-color: rgba(255, 255, 255, 0.8); /* Arrière-plan légèrement transparent */
+    background-color: rgba(255, 255, 255, 0.85); /* Arrière-plan légèrement transparent */
     border-radius: 10px;
     padding: 20px;
     margin: 20px;
 }
 
-header {
+.header {
     background-color: #3498db;
     color: #fff;
     text-align: center;
     padding: 20px;
 }
 
-header img {
+.profile-image-container {
+    text-align: center;
+}
+
+.profile-image {
     max-width: 150px;
     border-radius: 50%;
+    border: 3px solid #fff; /* Contour blanc */
     display: block;
     margin: 0 auto 20px;
 }
@@ -64,14 +70,14 @@ a {
 }
 
 section {
-    background-color: #3498db;
+    background-color: rgba(52, 152, 219, 0.7); /* Couleur de fond avec transparence */
     color: #fff;
     border-radius: 5px;
     padding: 20px;
     margin: 20px 0;
     cursor: pointer;
     transition: transform 0.3s ease;
-    opacity: 0.8; /* Arrière-plan légèrement transparent */
+    opacity: 0.9; /* Arrière-plan légèrement transparent */
 }
 
 section:hover {
