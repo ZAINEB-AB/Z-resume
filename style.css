@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('background.jpg'); /* Image de fond globale */
+    background-image: url('download.jpg'); /* Image de fond globale */
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -33,6 +33,7 @@ body {
 .profile-image {
     width: 200px; /* Largeur personnalisée */
     height: 200px; /* Hauteur personnalisée */
+    object-fit: cover; /* Ajuster l'image sans déformation */
     border-radius: 50%;
     border: 3px solid #fff; /* Contour blanc */
     display: block;
@@ -49,7 +50,7 @@ h1 {
 h2 {
     font-size: 24px;
     margin-top: 20px;
-    color: #008000; /* Nouvelle couleur pour les titres de section */
+    color: #333; /* Couleur gris foncé pour les titres de section */
 }
 
 h3 {
