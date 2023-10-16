@@ -128,3 +128,14 @@ footer {
     text-align: center;
     margin-top: 20px;
 }
+/* Votre CSS actuel reste inchangé. */
+
+/* Ajoutez ci-dessous le code suggéré pour les animations : */
+/* Animation au survol des sections */
+section.active {
+    transform: scale(1.05);
+    background-color: rgba(52, 152, 219, 0.9);
+    opacity: 1;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease, opacity 0.3s ease, box-shadow 0.3s ease;
+}
