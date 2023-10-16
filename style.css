@@ -1,72 +1,50 @@
-
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-
-header {
-    background-image: url('pngtree-dark-abstract-background-with-dark-overlap-layers-image_304990.jpg'); /* Image de fond pour l'en-tête */
-    background-size: cover;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-}
-
-header img {
-    max-width: 150px;
-    border-radius: 50%;
-    display: block;
-    margin: 0 auto 20px;
-}
-
-h1 {
-    font-size: 36px;
-    margin: 0;
-}
-
-h2 {
-    font-size: 24px;
-    margin-top: 20px;
-}
-
-h3 {
-    font-size: 18px;
-    margin-top: 10px;
-}
-
-p {
-    font-size: 18px;
-    margin: 0;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-li {
-    margin: 10px 0;
-}
-
-a {
-    color: #3498db;
-    text-decoration: none;
-}
-
-section {
-    background-image: url('pngtree-dark-abstract-background-with-dark-overlap-layers-image_304990.jpg'); /* Image de fond pour les sections */
-    background-size: cover;
-    color: #fff;
-    margin: 20px;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    cursor: pointer;
-    transition: transform 0.3s ease;
-}
-
-section:hover {
-    transform: scale(1.03);
-}
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaineb Abboubi - CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="your_profile_picture.jpg" alt="Zaineb Abboubi">
+        <h1>Zaineb Abboubi</h1>
+        <p>Étudiante en SGIT</p>
+        <p>Institut agronomique et vétérinaire Hassan II</p>
+    </header>
+    <section class="about">
+        <h2>À propos</h2>
+        <p>Bonne capacité d'adaptation, savoir bien travailler en équipe, curiosité et sens de l'initiative.</p>
+    </section>
+    <section class="skills">
+        <h2>Compétences</h2>
+        <h3>Compétences techniques :</h3>
+        <ul>
+            <li>Trimble Business Center</li>
+            <li>QGIS</li>
+            <li>AutoCAD</li>
+            <li>ERDAS</li>
+        </ul>
+        <h3>Compétences linguistiques :</h3>
+        <p>Arabe (langue maternelle), français (courant)</p>
+    </section>
+    <section class="experience">
+        <h2>Expérience</h2>
+        <h3>Stage à l'ANCFCC - Berrechid (2022-2023)</h3>
+        <p>Exploration du métier de l'ingénieur géomètre topographe travaillant dans le secteur public.</p>
+        <p>Application des connaissances académiques.</p>
+        <p>Compréhension des liens entre la conservation foncière et le cadastre dans les différentes procédures de leurs attributions.</p>
+        <h3>Stage de professionnalisation (2023)</h3>
+        <p>Densification et rattachement de la zone de Sidi Allal El Bahraoui, dans la phase de géodésie.</p>
+        <p>Établissement le plan d'AIT MALK, dans la phase de topographie.</p>
+        <p>Établissement de la stériominute de la zone de Sidi Allal El Bahraoui, dans la phase de photogramétrie.</p>
+    </section>
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>Email : <a href="mailto:zainebabboubi@gmail.com">zainebabboubi@gmail.com</a></p>
+        <p>Téléphone : +212 601 880 104</p>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
