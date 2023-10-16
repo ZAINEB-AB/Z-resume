@@ -10,7 +10,7 @@ body {
 }
 
 #page-container {
-    background-color: rgba(255, 255, 255, 0.85); /* Arrière-plan légèrement transparent */
+    background-color: rgba(240, 240, 240, 0.85); /* Arrière-plan légèrement transparent */
     border-radius: 10px;
     padding: 20px;
     margin: 20px;
@@ -47,7 +47,7 @@ h1 {
 h2 {
     font-size: 24px;
     margin-top: 20px;
-    color: #e74c3c; /* Nouvelle couleur pour les titres de section */
+    color: #fff; /* Titres de section en blanc */
 }
 
 h3 {
@@ -76,19 +76,9 @@ a {
     text-decoration: none;
 }
 
-.about {
-    background-color: #e74c3c; /* Nouvelle couleur de fond pour la section À propos */
-}
-
-.skills {
-    background-color: #27ae60; /* Nouvelle couleur de fond pour la section Compétences */
-}
-
-.experience {
-    background-color: #f1c40f; /* Nouvelle couleur de fond pour la section Expérience */
-}
-
 section {
+    background-color: rgba(200, 200, 200, 0.7); /* Nouvelle couleur de fond pour les sections */
+    color: #333; /* Couleur du texte de section */
     border-radius: 5px;
     padding: 20px;
     margin: 20px 0;
