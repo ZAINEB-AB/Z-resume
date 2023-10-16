@@ -94,6 +94,21 @@ section:hover {
     transform: scale(1.03);
     opacity: 1; /* Retour à l'opacité normale lors du survol */
 }
+.contact {
+    background-color: rgba(200, 200, 200, 0.7); /* Nouvelle couleur de fond pour la section Contact */
+    color: #333; /* Couleur du texte de la section Contact */
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    opacity: 0.9; /* Arrière-plan légèrement transparent */
+}
+
+.contact:hover {
+    transform: scale(1.03);
+    opacity: 1; /* Retour à l'opacité normale lors du survol */
+}
 
 button {
     background-color: #3498db;
