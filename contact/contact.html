@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css"> 
+    <script src="script.js"></script>
+    <script src="contact.js"></script> 
+    <title>Contactez-moi</title>
+</head>
+
+
+
+<body>
+    <div id="page-container">
+        <header>
+            <h1>Contactez-moi</h1>
+        </header>
+        <section class="contact-form">
+            <h2>Formulaire de Contact</h2>
+            <form action="https://formspree.io/f/xnqklkoq" method="post" role="form" class="email-form">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+                <label for="objet">Objet :</label>
+                <input type="text" id="objet" name="objet" required>
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Envoyer</button>
+            </form>
+        </section>
+        <section class="contact-info">
+            <h2>Informations de Contact</h2>
+            <p>Adresse : Rabat; Maroc</p>
+            <p>Téléphone : +212 601 88 01 04 </p>
+            <p>Email : zainebabboubi@gmail.com</p>
+        </section>
+        <footer>
+            <p>&copy; 2023 Zaineb</p>
+        </footer>
+    </div>
+</body>
+</html>
