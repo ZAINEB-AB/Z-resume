@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('download.jpg'); /* Image de fond globale */
+    background-image: url('photo/download.jpg'); /* Image de fond globale */
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -48,16 +48,27 @@ h1 {
 }
 
 h2 {
-    font-size: 24px;
-    margin-top: 20px;
-    color: #333; /* Couleur gris foncé pour les titres de section */
+    font-size: 24px; /* Taille légèrement réduite par rapport à l'original */
+    margin-top: 5px; /* Légèrement déplacé vers le haut */
+    color: #333; /* Couleur des titres en gris foncé */
+    transition: transform 0.2s ease; /* Transition plus rapide */
+}
+
+h2:hover {
+    transform: scale(1.05); /* Animation plus subtile au survol */
 }
 
 h3 {
-    font-size: 18px;
-    margin-top: 10px;
-    color: #333; /* Couleur du texte de section */
+    font-size: 16px; /* Taille légèrement réduite par rapport à l'original */
+    margin-top: 5px;
+    color: #333; /* Couleur des sous-titres en gris foncé */
+    transition: transform 0.2s ease;
 }
+
+h3:hover {
+    transform: scale(1.05); /* Animation plus subtile au survol */
+}
+
 
 p {
     font-size: 18px;
@@ -128,14 +139,7 @@ footer {
     text-align: center;
     margin-top: 20px;
 }
-/* Votre CSS actuel reste inchangé. */
-
-/* Ajoutez ci-dessous le code suggéré pour les animations : */
-/* Animation au survol des sections */
-section.active {
-    transform: scale(1.05);
-    background-color: rgba(52, 152, 219, 0.9);
-    opacity: 1;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease, background-color 0.3s ease, opacity 0.3s ease, box-shadow 0.3s ease;
+.profile-image:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
 }
